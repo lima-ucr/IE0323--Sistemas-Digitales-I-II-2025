@@ -1,4 +1,7 @@
 # IE0323 Sistemas Digitales I
+**Universidad de Costa Rica**
+
+**Escuela de Ingeniería Eléctrica**
 
 **II-2025**
 
