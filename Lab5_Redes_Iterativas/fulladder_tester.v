@@ -6,7 +6,7 @@ module fulladder_tester (
     input Cout
 );
     initial begin
-        $dumpfile("simulacion_div3.vcd");
+        $dumpfile("simulacion_fulladder.vcd");
         $dumpvars();
         {A,B,Cin} = 0; #10
         {A,B,Cin} = 1; #10
