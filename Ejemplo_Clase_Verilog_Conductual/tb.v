@@ -1,11 +1,17 @@
-`include "ejemplo_2.v"
+// incluir modulos a utilizar
+`include "div3.v"
 `include "tester.v"
 
-module tb;
+module tb();
 
-    wire A, B, Out;
+// Cables para conexión de interfaces 
+// de ambos modulos (div3 y tester)
+wire A,B,C,D,Y;
 
-    ejemplo_2 dut (A, B, Out);
-    tester tester (A, B, Out);
+
+// Instancias y conexiones de div3 y tester (por orden)
+div3 dut (A,B,C,D,Y);
+tester tester (A,B,C,D,Y);
+
 
 endmodule
