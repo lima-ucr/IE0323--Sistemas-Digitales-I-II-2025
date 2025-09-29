@@ -54,16 +54,16 @@ module alu (
     //Note que la sintaxis de la instancia es un poco distinta
     //Asigne las señales necesarias en su interfaz
     mux2x1_param #( .WIDTH(8) ) inst4  (
-        .D0(), //Este es probablemente una constante
-        .D1(),
+        .D0(), 
+        .D1(), //Este es probablemente una constante
         .sel(),
         .Y()
     );
 
     //Necesitamos dos muxes de estos
     mux2x1_param #( .WIDTH(8) ) inst5  (
-        .D0(), //Este es probablemente una constante
-        .D1(),
+        .D0(), 
+        .D1(), //Este es probablemente una constante
         .sel(),
         .Y()
     );
