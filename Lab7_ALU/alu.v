@@ -2,8 +2,8 @@ module alu (
     input [3:0] A,
     input [3:0] B,
     input sum_notsub,
-    output reg [7:0] HEX0,
-    output reg [7:0] HEX1
+    output [7:0] HEX0,
+    output [7:0] HEX1
 );
 
     //Aqui deberá instanciar las conexiones intermedias necesarias
